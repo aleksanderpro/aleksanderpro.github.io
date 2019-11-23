@@ -1,5 +1,5 @@
 <?php
-if($_GET['site'] == 1)
+if($_POST['site'] == 1)
 {
 include "ToJestIndex.html";
 } else {
@@ -8,7 +8,7 @@ echo "<br>";
 }
 ?>
 <?php
-if($_GET['site'] == 2)
+if($_POST['site'] == 2)
 {
 header('Location: adminlogin.html');
 } else {
@@ -16,6 +16,4 @@ echo "2: nie";
 echo "<br>";
 }
 ?>
-<?php
-echo "Powered by Latający Ryś";
-?>
+
